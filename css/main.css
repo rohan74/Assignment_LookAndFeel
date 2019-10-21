@@ -18,7 +18,7 @@ html {
 /* Position text in the middle */
 .middle {
   position: absolute;
-  color: beige;
+  color: #000;
   top: 70%;
   left: 39%;
   text-align: center;
@@ -37,11 +37,38 @@ html {
 
 /*Set text color for a tag inside middle class and ul>li element*/
 .middle ul li a {
-  color: beige;
+  color: #000;
 }
 
 /*Change text color and decoration for a tags inside middle class and ul>li element*/
 .middle ul li a:hover {
   color: red;
   text-decoration: none;
+}
+{
+    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+	text-align: center;
+    background-color: lightskyblue;
+}
+
+.footer-blurb h3 {
+    color: midnightblue;
+    }
+    
+.footer-blurb-item {
+    padding: 30px 0;
+    }
+ 
+.copyright {
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 0;
 }
